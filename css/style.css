@@ -3172,6 +3172,8 @@ body {
       transform: skewY(-5deg); } }
 
 @media only screen and (max-width: 900px) and (min-width: 601px) and (max-height: 500px) {
+  .desktop {
+    display: none; }
   .menu {
     top: 0;
     left: 0;
@@ -3395,9 +3397,9 @@ body {
     .intro__title {
       position: absolute;
       z-index: 20;
-      left: 3vw;
-      top: 8vh;
-      display: inline-block;
+      left: 8vw;
+      top: 34vh;
+      display: block;
       background: #172a88;
       text-align: center;
       color: white;
@@ -3409,11 +3411,9 @@ body {
       transform: skewY(-5deg); }
     .intro__cont {
       position: absolute;
-      top: 10vh;
-      margin-top: 10vh;
-      margin-left: 5vw;
-      z-index: 10;
-      width: 350px; }
+      top: 50vh;
+      left: 10vw;
+      z-index: 10; }
       .intro__cont span {
         display: inline;
         color: #3e3a39;
@@ -3916,20 +3916,6 @@ body {
       font-weight: 600;
       letter-spacing: 1px;
       line-height: 28px; }
-      .register__info .desktop {
-        display: none; }
-      .register__info::before {
-        content: '';
-        position: absolute;
-        display: block;
-        left: 0;
-        right: 0;
-        bottom: 20vh;
-        margin: auto;
-        background: #3e3a39;
-        opacity: 0.5;
-        height: 15vh;
-        width: 1px; }
     .register__wheel--self {
       position: relative;
       display: flex;
