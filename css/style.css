@@ -474,8 +474,9 @@ body {
         z-index: -1;
         top: 2vh;
         left: 30px;
-        height: 400px;
-        width: 360px;
+        height: 100%;
+        width: 100%;
+        padding: 20px 80px;
         background: #8ebde6;
         transform: skewY(-5deg); }
     .dept__decoration {
@@ -605,8 +606,9 @@ body {
         z-index: -1;
         top: 2vh;
         left: 30px;
-        height: 400px;
-        width: 360px;
+        height: 100%;
+        width: 100%;
+        padding: 20px 80px;
         background: #8ebde6;
         transform: skewY(-5deg); }
     .event__decoration {
@@ -846,6 +848,25 @@ body {
               height: 2px;
               width: 10%;
               background: #8ebde6; }
+        .schedule__cont--list--more {
+          position: relative;
+          display: block;
+          text-align: center;
+          top: -10px;
+          height: 30px;
+          font-size: 16px;
+          font-weight: 600;
+          letter-spacing: 1px;
+          line-height: 28px;
+          color: #3e3a39;
+          opacity: 0.5;
+          cursor: pointer;
+          text-decoration: none;
+          transition: .3s; }
+          .schedule__cont--list--more:hover {
+            opacity: 0.7; }
+          .schedule__cont--list--more:active {
+            opacity: 1; }
       .schedule__cont--background {
         position: absolute;
         z-index: -1;
@@ -1547,8 +1568,9 @@ body {
         z-index: -1;
         top: 2vh;
         left: 30px;
-        height: 400px;
-        width: 300px;
+        height: 100%;
+        width: 100%;
+        padding: 20px 40px;
         background: #8ebde6;
         transform: skewY(-5deg); }
     .dept__decoration {
@@ -1678,8 +1700,9 @@ body {
         z-index: -1;
         top: 2vh;
         left: 30px;
-        height: 400px;
-        width: 300px;
+        height: 100%;
+        width: 100%;
+        padding: 20px 40px;
         background: #8ebde6;
         transform: skewY(-5deg); }
     .event__decoration {
@@ -1919,6 +1942,25 @@ body {
               height: 2px;
               width: 10%;
               background: #8ebde6; }
+        .schedule__cont--list--more {
+          position: relative;
+          display: block;
+          text-align: center;
+          top: -10px;
+          height: 30px;
+          font-size: 16px;
+          font-weight: 600;
+          letter-spacing: 1px;
+          line-height: 28px;
+          color: #3e3a39;
+          opacity: 0.5;
+          cursor: pointer;
+          text-decoration: none;
+          transition: .3s; }
+          .schedule__cont--list--more:hover {
+            opacity: 0.7; }
+          .schedule__cont--list--more:active {
+            opacity: 1; }
       .schedule__cont--background {
         position: absolute;
         z-index: -1;
@@ -2966,6 +3008,25 @@ body {
               height: 2px;
               width: 10%;
               background: #8ebde6; }
+        .schedule__cont--list--more {
+          position: relative;
+          display: block;
+          text-align: center;
+          top: -10px;
+          height: 30px;
+          font-size: 16px;
+          font-weight: 600;
+          letter-spacing: 1px;
+          line-height: 28px;
+          color: #3e3a39;
+          opacity: 0.5;
+          cursor: pointer;
+          text-decoration: none;
+          transition: .3s; }
+          .schedule__cont--list--more:hover {
+            opacity: 0.7; }
+          .schedule__cont--list--more:active {
+            opacity: 1; }
       .schedule__cont--background {
         position: absolute;
         z-index: -1;
@@ -3782,11 +3843,17 @@ body {
         .schedule__cont--list.on .schedule__cont--list--detail {
           height: auto;
           padding-bottom: 20px; }
+        .schedule__cont--list.on .schedule__cont--list--more {
+          height: 30px;
+          opacity: 0.5; }
         .schedule__cont--list.on .schedule__cont--list--status {
           transform: rotate(0deg); }
         .schedule__cont--list.off .schedule__cont--list--detail {
           height: 0;
           padding-bottom: 0; }
+        .schedule__cont--list.off .schedule__cont--list--more {
+          height: 0;
+          opacity: 0; }
         .schedule__cont--list.off .schedule__cont--list--status {
           transform: rotate(180deg); }
         .schedule__cont--list--status {
@@ -3887,6 +3954,20 @@ body {
               height: 2px;
               width: 10%;
               background: #8ebde6; }
+        .schedule__cont--list--more {
+          position: relative;
+          display: block;
+          text-align: center;
+          top: -10px;
+          font-size: 16px;
+          font-weight: 600;
+          letter-spacing: 1px;
+          line-height: 28px;
+          color: #3e3a39;
+          cursor: pointer;
+          text-decoration: none; }
+          .schedule__cont--list--more:active {
+            opacity: 1; }
       .schedule__cont--background {
         position: absolute;
         z-index: -1;
@@ -4799,11 +4880,17 @@ body {
         .schedule__cont--list.on .schedule__cont--list--detail {
           height: auto;
           padding-bottom: 20px; }
+        .schedule__cont--list.on .schedule__cont--list--more {
+          height: 30px;
+          opacity: 0.5; }
         .schedule__cont--list.on .schedule__cont--list--status {
           transform: rotate(0deg); }
         .schedule__cont--list.off .schedule__cont--list--detail {
           height: 0;
           padding-bottom: 0; }
+        .schedule__cont--list.off .schedule__cont--list--more {
+          height: 0;
+          opacity: 0; }
         .schedule__cont--list.off .schedule__cont--list--status {
           transform: rotate(180deg); }
         .schedule__cont--list--status {
@@ -4904,6 +4991,20 @@ body {
               height: 2px;
               width: 10%;
               background: #8ebde6; }
+        .schedule__cont--list--more {
+          position: relative;
+          display: block;
+          text-align: center;
+          top: -10px;
+          font-size: 16px;
+          font-weight: 600;
+          letter-spacing: 1px;
+          line-height: 28px;
+          color: #3e3a39;
+          cursor: pointer;
+          text-decoration: none; }
+          .schedule__cont--list--more:active {
+            opacity: 1; }
       .schedule__cont--background {
         position: absolute;
         z-index: -1;
